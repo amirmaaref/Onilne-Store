@@ -4,6 +4,16 @@ public class Comment {
     private String mId;
     private Person mCommenter;
     private Person mMentionedComment;
+
+    public Comment getReplyedComment() {
+        return mReplyedComment;
+    }
+
+    public void setReplyedComment(Comment replyedComment) {
+        mReplyedComment = replyedComment;
+    }
+
+    private Comment mReplyedComment;
     private String mText;
     private Date mDate;
 
