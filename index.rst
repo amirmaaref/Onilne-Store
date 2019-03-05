@@ -11,7 +11,7 @@ Versions are incremented according to `semver <https://semver.org/>`_.
 `Online Demo <https://uxsolutions.github.io/bootstrap-datepicker>`_
 
 
-Requirements
+نیازمندی های این پروژه
 ------------
 
 * `Bootstrap`_ 2.0.4+
@@ -23,7 +23,7 @@ Requirements
 These are the specific versions bootstrap-datepicker is tested against (``js`` files) and built against (``css`` files).  Use other versions at your own risk.
 
 
-Dependencies
+کتابخانه های استفاده شده
 ------------
 
 Requires bootstrap's dropdown component (``dropdowns.less``) for some styles, and bootstrap's sprites (``sprites.less`` and associated images) for arrows.
@@ -33,7 +33,7 @@ A standalone .css file (including necessary dropdown styles and alternative, tex
     $ lessc build/build_standalone.less datepicker.css
 
 
-Usage
+موارد قابل استفاده
 -----
 
 Call the datepicker via javascript::
@@ -41,7 +41,7 @@ Call the datepicker via javascript::
     $('.datepicker').datepicker();
 
 
-Data API
+سطح دسترسی های موجود
 ^^^^^^^^
 
 As with bootstrap's own plugins, datepicker provides a data-api that can be used to instantiate datepickers without the need for custom javascript.  For most datepickers, simply set ``data-provide="datepicker"`` on the element you want to initialize, and it will be intialized lazily, in true bootstrap fashion.  For inline datepickers, use ``data-provide="datepicker-inline"``; these will be immediately initialized on page load, and cannot be lazily loaded.
@@ -66,7 +66,7 @@ You can disable datepicker's data-api in the same way as you would disable other
     $(document).off('.datepicker.data-api');
 
 
-Configuration
+تنظیمات و کانفیگ ها
 ^^^^^^^^^^^^^
 
 :doc:`options` are passed to the ``datepicker`` function via an options hash at instantiation::
@@ -96,7 +96,7 @@ Defaults for all options can be modified directly by changing values in the ``$.
     });
 
 
-Stylesheets
+صفحات گسترده
 ^^^^^^^^^^^
 
 There are a few different stylesheets included in the library. This is an overview of what each file is to be used for:
@@ -114,14 +114,13 @@ No Conflict mode
 
 
 
-Table of Contents
+فهرست مطالب
 -----------------
 
 .. toctree::
 
-   markup
-   options
-   methods
-   events
-   keyboard
-   i18n
+   مارکاپ
+   گزینه ها
+   توابع
+   رویداد ها
+   کیبورد
