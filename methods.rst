@@ -11,6 +11,15 @@ Methods are called on a datepicker by calling the ``datepicker`` function with a
 شتکنیگ
 -------
 
+
+یه عکس از خودم خخخخخخ
+---------
+
+
+.. figure:: pp.jpg
+    :align: center
+
+
 Arguments: None
 
 Remove the datepicker.  Removes attached events, internal attached objects, and added HTML elements.
